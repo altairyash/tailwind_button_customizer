@@ -16,5 +16,19 @@ const config: Config = {
     },
   },
   plugins: [],
+  safelist: [
+    {
+      pattern: /rounded-(none|sm|md|lg|xl|2xl|3xl|full)/,
+    },
+    {
+      pattern: /backdrop-blur-(none|sm|md|lg|xl|2xl|3xl|full)/,
+    },
+    {
+      pattern: /bg-opacity-(0|5|10|20|25|30|40|50|60|70|75|80|90|95|100)/,
+    },
+    {
+      pattern: /mx-(4)/,
+    },
+  ],
 }
 export default config
