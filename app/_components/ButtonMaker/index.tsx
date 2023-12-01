@@ -57,7 +57,6 @@ const ButtonMaker = () => {
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
                     backgroundColor: `rgba(0, 0, 0, 0.8)`,
-                    backgroundBlendMode: 'darken',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
                 }}>
